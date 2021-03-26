@@ -72,7 +72,7 @@ const CalendarSummary: React.FunctionComponent = () => {
               <StyledTableCell align="right">
                 Total duration [min]
               </StyledTableCell>
-              <StyledTableCell align="right">Longest event</StyledTableCell>
+              <StyledTableCell>Longest event</StyledTableCell>
             </StyledTableRow>
           </TableHead>
           <TableBody>
@@ -87,7 +87,7 @@ const CalendarSummary: React.FunctionComponent = () => {
                 <StyledTableCell align="right">
                   {day.totalEventsDuration}
                 </StyledTableCell>
-                <StyledTableCell align="right">
+                <StyledTableCell>
                   {day.longestEventTitle}
                 </StyledTableCell>
               </StyledTableRow>
@@ -100,7 +100,7 @@ const CalendarSummary: React.FunctionComponent = () => {
               <StyledTableCellTotal align="right">
                 {total.weekTotalDuration}
               </StyledTableCellTotal>
-              <StyledTableCellTotal align="right">
+              <StyledTableCellTotal>
                 {total.weekLongestName}
               </StyledTableCellTotal>
             </StyledTableRow>
